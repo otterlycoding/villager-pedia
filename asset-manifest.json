@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/villager-pedia/static/css/main.70838c64.chunk.css",
+    "main.js": "/villager-pedia/static/js/main.6a9d7940.chunk.js",
+    "main.js.map": "/villager-pedia/static/js/main.6a9d7940.chunk.js.map",
+    "runtime-main.js": "/villager-pedia/static/js/runtime-main.e927546f.js",
+    "runtime-main.js.map": "/villager-pedia/static/js/runtime-main.e927546f.js.map",
+    "static/js/2.95b24a52.chunk.js": "/villager-pedia/static/js/2.95b24a52.chunk.js",
+    "static/js/2.95b24a52.chunk.js.map": "/villager-pedia/static/js/2.95b24a52.chunk.js.map",
+    "static/js/3.8f6bdd10.chunk.js": "/villager-pedia/static/js/3.8f6bdd10.chunk.js",
+    "static/js/3.8f6bdd10.chunk.js.map": "/villager-pedia/static/js/3.8f6bdd10.chunk.js.map",
+    "index.html": "/villager-pedia/index.html",
+    "static/css/main.70838c64.chunk.css.map": "/villager-pedia/static/css/main.70838c64.chunk.css.map",
+    "static/js/2.95b24a52.chunk.js.LICENSE.txt": "/villager-pedia/static/js/2.95b24a52.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e927546f.js",
+    "static/js/2.95b24a52.chunk.js",
+    "static/css/main.70838c64.chunk.css",
+    "static/js/main.6a9d7940.chunk.js"
+  ]
+}
