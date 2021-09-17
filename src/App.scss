@@ -1,0 +1,72 @@
+$body-color: #786951;
+$body-bg:#F8F8F0;
+$font-family-sans-serif: "Roboto", sans-serif;
+$headings-font-family: "Arvo", sans-serif;
+$headings-font-weight: 700;
+$btn-close-color: $body-color;
+$input-bg: white;
+$modal-content-bg: #fdf8e3;
+$primary: #4cbaad;
+$modal-content-border-radius: 2rem;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.villager-index{
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 1.5rem;
+}
+
+.villager-item{
+	text-align: center;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	
+	
+	> div{
+		border-radius: 50%;
+		border: 4px solid transparent;
+		background-color: rgba($body-color, .15);
+		margin: auto;
+		transition: all 0.3s ease;
+		padding: 1rem;
+	}
+	&:hover{
+		> div{
+			border: 4px solid $primary;
+			background-color: rgba($primary, .4);
+		}
+	}
+}
+
+.modal-header{
+	border-bottom: none;
+}
+
+.bubble-title{
+	background-color: gray;
+	padding: 0.5rem 2rem;
+	border-radius: 30%/100% 100% 120% 120%;
+	//transform: perspective(2rem) rotateX(1deg);
+	position: absolute;
+  	left: 50%;
+  	transform: translate(-50%);
+    top: -23px;
+    margin-bottom: -50px;
+}
+
+.smooth-image {
+  transition: opacity 1s;
+}
+.image-visible {
+  opacity: 1;
+}
+.image-hidden {
+  opacity: 0;
+}
+
+.smooth-no-image {
+  background-image: linear-gradient(90deg, #ccc, #999, #ccc);
+  color: #fff;
+}
